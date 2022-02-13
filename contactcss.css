@@ -1,0 +1,98 @@
+*{
+      margin: 0;
+      padding: 0;
+      
+}
+:root{
+      --main-bg-color:  #172337;
+}
+header{
+      background-color: #2455f4;;
+      color: white;
+      height: 12vh;
+      display: flex;
+      justify-content: flex-start;
+      
+      
+}
+nav{
+      list-style: none;
+      display: flex;
+      align-items: flex-start;
+      align-items: center;
+      padding:  0px 20px;
+}
+ul{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+}
+li{
+      display: inline;
+      margin: 2vw;
+}
+nav ul li a{
+      color: white;
+      text-decoration: none; /*to remove the underline from nav bar tools */
+}
+nav ul li a:hover{
+      color: black;
+      font-weight: bold;
+
+}
+.search{
+      display: flex;
+      align-items: center;
+    
+}
+.search input{
+      height:5vh;
+      width: 30vw;
+      border: 2.5px solid black;
+      border-radius: 6px;
+      margin:0 5px 0 10px ;
+      padding: 0 10px;
+
+}
+.btn{
+      border: 2px solid white;
+      border-radius: 7px;
+      padding: 5px 0 5px 0;
+      width: 6vw;
+      background-color: rgb(46, 46, 251);
+      color: white;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.btn:hover{
+      font-weight: bold;
+}
+footer{
+      background-color: var(--main-bg-color);
+      color: white;
+      height: 10vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+footer p:hover{
+      color:rgb(0, 5, 32);
+      
+}
+.container{
+      min-height: 78vh;
+      background-color:white;
+}
+.container pre {
+      margin: 10px;
+}
+pre{
+      color: black;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      border: 2px solid black;
+      border-radius: 5px;
+      margin: 0;
+     font-weight: bold;
+     display: flex;
+     align-items: center;
+     padding: 2px;
+}
